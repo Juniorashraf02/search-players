@@ -16,28 +16,26 @@
 <body class="bg-warning container">
     <header>
         <h2 class="text-center mt-3 fw-bold">Search your favourite player</h2>
-        <div class="input-group mb-3 mt-4">
-            <input type="text" class="form-control text-center" placeholder="Player name" aria-label="Recipient's username"
-                aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <button class="btn btn-primary" type="button">Button</button>
-            </div>
-        </div>
     </header>
     <main>
-        <div class="bg-light text-center my-5">
-            <div>
-                <img src="" alt="Player picture" srcset="" class="mt-3">
-            </div>
-            <h4>Player Name: Metal</h4>
-            <div>
-                <button class="btn btn-primary mb-2">details</button>
-                <button class="btn btn-success mb-2">details</button>
-            </div>
 
+        <div class="d-flex justify-content-between">
+            <div>
+                <div class="input-group mb-3 mt-4">
+                    <input id="input" type="text" class="form-control text-center" placeholder="Player name"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div id="btn" class="input-group-append">
+                        <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+                </div>
+                <div id="player-container"></div>
+            </div>
+            <div class=" rounded mt-5">
+                <div id="player-info"></div>
+            </div>
         </div>
     </main>
-    
+
 
 
 
